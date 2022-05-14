@@ -1,0 +1,57 @@
+{
+  "name": "@supercharge/eslint-config",
+  "description": "A shareable ESLint config for JavaScript projects",
+  "version": "0.0.0",
+  "author": {
+    "name": "Marcus Pöhls",
+    "email": "marcus@superchargejs.com",
+    "url": "https://superchargejs.com"
+  },
+  "bugs": {
+    "url": "https://github.com/supercharge/eslint-config-supercharge/issues"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "~2.26.0",
+    "eslint-plugin-n": "~15.2.0",
+    "eslint-plugin-promise": "~6.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "8.x"
+  },
+  "devDependencies": {
+    "@japa/run-failed-tests": "~1.0.7",
+    "@japa/runner": "~2.0.7",
+    "@japa/spec-reporter": "~1.1.12",
+    "c8": "~7.11.2",
+    "eslint": "~8.15.0",
+    "expect": "~28.1.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/supercharge/eslint-config-supercharge",
+  "keywords": [
+    "supercharge",
+    "superchargejs",
+    "eslint",
+    "eslint-config",
+    "eslint-config-supercharge",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supercharge/eslint-config-supercharge.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "c8 node bin/test.js"
+  }
+}
