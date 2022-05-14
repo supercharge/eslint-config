@@ -5,12 +5,12 @@ A shareable ESLint config for JavaScript projects.
 ## Installation
 
 ```bash
-npm i -D eslint@8 eslint-config-supercharge
+npm i -D eslint@8 @supercharge/eslint-config
 ```
 
 
 ### Compatibility
-| `eslint` | `eslint-config-supercharge`             |
+| `eslint` | `@supercharge/eslint-config`            |
 | -------- | --------------------------------------- |
 | `8.x`    | `1.x`                                   |
 | `7.x`    | *not supported*                         |
