@@ -17,11 +17,12 @@ npm i -D eslint@8 @supercharge/eslint-config
 
 
 ## Usage
+Then extend the `@supercharge` ESLint config. This is a shortcut for `@supercharge/eslint-config` which ESLint automatically resolves:
 
 **`.eslintrc.js`**
 
 ```js
 module.exports = {
-  extends: 'supercharge'
+  extends: '@supercharge'
 }
 ```
