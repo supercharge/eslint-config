@@ -8,7 +8,7 @@
     "url": "https://superchargejs.com"
   },
   "bugs": {
-    "url": "https://github.com/supercharge/eslint-config-supercharge/issues"
+    "url": "https://github.com/supercharge/eslint-config/issues"
   },
   "dependencies": {
     "eslint-plugin-import": "~2.26.0",
@@ -30,13 +30,13 @@
   "files": [
     "index.js"
   ],
-  "homepage": "https://github.com/supercharge/eslint-config-supercharge",
+  "homepage": "https://github.com/supercharge/eslint-config",
   "keywords": [
     "supercharge",
     "superchargejs",
     "eslint",
     "eslint-config",
-    "eslint-config-supercharge",
+    "eslint-config",
     "nodejs"
   ],
   "license": "MIT",
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supercharge/eslint-config-supercharge.git"
+    "url": "git+https://github.com/supercharge/eslint-config.git"
   },
   "scripts": {
     "build": "tsc",

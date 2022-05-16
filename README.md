@@ -1,4 +1,4 @@
-# eslint-config-supercharge
+# @supercharge/eslint-config
 A shareable ESLint config for JavaScript projects.
 
 
