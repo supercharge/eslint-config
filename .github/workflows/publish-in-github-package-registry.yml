@@ -20,9 +20,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build package files
-        run: npm run build
-
       - name: Configure GitHub Package Registry as Publish Target
         uses: actions/setup-node@v2
         with:
