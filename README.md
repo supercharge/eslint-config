@@ -26,3 +26,8 @@ module.exports = {
   extends: '@supercharge'
 }
 ```
+
+
+## Related
+
+- [@supercharge/eslint-config-typescript](https://github.com/supercharge/eslint-config-typescript) - ESLint config for TypeScript projects
