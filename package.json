@@ -1,7 +1,7 @@
 {
   "name": "@supercharge/eslint-config",
   "description": "A shareable ESLint config for JavaScript projects",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "Marcus Pöhls",
     "email": "marcus@superchargejs.com",
