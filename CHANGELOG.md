@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [2.0.0](https://github.com/supercharge/eslint-config/compare/v1.1.2...v2.0.0) - 2023-07-09
+
+### Updated
+- bump dependencies
+
+### Breaking Changes
+- `eslint-plugin-n` requires at least Node.js 16
+- `eslint-plugin-n` defaults to `ecmaVersion` 2021
+
+
 ## [1.1.2](https://github.com/supercharge/eslint-config/compare/v1.1.1...v1.1.2) - 2022-11-25
 
 ### Updated
