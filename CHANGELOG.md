@@ -1,10 +1,16 @@
 # Changelog
 
 
-## [2.0.1](https://github.com/supercharge/eslint-config/compare/v2.0.0...v2.0.1) - 2023-09-30
+## [3.0.0](https://github.com/supercharge/eslint-config/compare/v2.0.0...v3.0.0) - 2023-09-30
+
+### Added
+- add `engines` field to `package.json` that requires `Node.js >= 16`
 
 ### Updated
 - bump dependencies
+
+### Breaking Changes
+The added `engines` fields in the `package.json` file might be a breaking change for a project. Explicitly requiring Node.js v16 or later could cause issues with a code base using an older Node.js version in combination with this package.
 
 
 ## [2.0.0](https://github.com/supercharge/eslint-config/compare/v1.1.2...v2.0.0) - 2023-07-09
