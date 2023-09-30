@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [2.0.1](https://github.com/supercharge/eslint-config/compare/v2.0.0...v2.0.1) - 2023-09-30
+
+### Updated
+- bump dependencies
+
+
 ## [2.0.0](https://github.com/supercharge/eslint-config/compare/v1.1.2...v2.0.0) - 2023-07-09
 
 ### Updated
