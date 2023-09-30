@@ -26,10 +26,13 @@
     "eslint": "~8.50.0",
     "expect": "~29.7.0"
   },
-  "main": "index.js",
+  "engines": {
+    "node": ">=16"
+  },
   "files": [
     "index.js"
   ],
+  "main": "index.js",
   "homepage": "https://github.com/supercharge/eslint-config",
   "keywords": [
     "supercharge",
